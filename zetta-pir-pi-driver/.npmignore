@@ -1,0 +1,4 @@
+node_modules
+.registry
+.peers
+.DS_Store
