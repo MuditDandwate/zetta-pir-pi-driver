@@ -1,58 +1,38 @@
 {
-  "name": "zetta-pir-edison-driver",
-  "version": "0.1.0",
-  "description": "PIR Intel Edison Driver for Zetta",
+  "name": "zetta-pir-pi-driver",
+  "version": "1.0.0",
+  "description": "Zetta driver for PIR sensors on Raspberry Pi",
   "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "dependencies": {
+    "mraa-js": "^0.1.0",
+    "onoff": "^1.0.2",
+    "zetta-auto-scout": "^0.5.0",
+    "zetta-device": "^0.7.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anil614sagar/zetta-pir-edison-driver.git"
+    "url": "https://github.com/MuditDandwate/zetta-pir-pi-driver"
   },
   "keywords": [
     "Zetta",
-    "Intel",
-    "Edison",
     "PIR",
-    "Motion",
-    "Sensor"
+    "PI",
+    "R-Pi",
+    "Raspberry",
+    "pi"
   ],
-  "author": {
-    "name": "Anil Sagar",
-    "email": "anil614sagar@gmail.com",
-    "url": "https://in.linkedin.com/in/anilsagar/"
-  },
+  "author": "Mudit Dandwate <mudit.dandwate@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anil614sagar/zetta-pir-edison-driver/issues"
+    "url": "https://github.com/MuditDandwate/zetta-pir-pi-driver/issues"
   },
-  "homepage": "https://github.com/anil614sagar/zetta-pir-edison-driver",
-  "dependencies": {
-    "mraa-js": "^0.1.0",
-    "zetta-auto-scout": "^0.5.0",
-    "zetta-device": "^0.7.0"
-  },
-  "gitHead": "91627d7afd41085d398f0efe859fb34130504546",
-  "_id": "zetta-pir-edison-driver@0.1.0",
-  "_shasum": "df082518d3a207593ef1f424fd51c486651f41bb",
-  "_from": "zetta-pir-edison-driver@*",
-  "_npmVersion": "2.4.1",
-  "_nodeVersion": "0.10.35",
-  "_npmUser": {
-    "name": "anil614sagar",
-    "email": "anil614sagar@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "anil614sagar",
-      "email": "anil614sagar@gmail.com"
-    }
-  ],
-  "dist": {
-    "shasum": "df082518d3a207593ef1f424fd51c486651f41bb",
-    "tarball": "http://registry.npmjs.org/zetta-pir-edison-driver/-/zetta-pir-edison-driver-0.1.0.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/zetta-pir-edison-driver/-/zetta-pir-edison-driver-0.1.0.tgz"
+  "homepage": "https://github.com/MuditDandwate/zetta-pir-pi-driver"
 }
