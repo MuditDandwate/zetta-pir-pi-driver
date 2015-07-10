@@ -1,8 +1,0 @@
-{
-  "name" : "mraa",
-  "main" : "./mraa.node",
-  "engines": {
-    "node": ">= 1.0.x"
-  },
-  "license": "MIT"
-}
